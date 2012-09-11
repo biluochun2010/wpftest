@@ -3,16 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpftest", "wpftest\wpftest.csproj", "{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldModule", "HelloWorldModule\HelloWorldModule.csproj", "{078D1226-8073-4C14-B380-FE5275E12109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Debug|x86.ActiveCfg = Debug|x86
 		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Debug|x86.Build.0 = Debug|x86
+		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Release|Any CPU.ActiveCfg = Release|x86
+		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Release|x86.ActiveCfg = Release|x86
 		{F71D8EE7-9645-46A4-BC63-61C1605D1FC9}.Release|x86.Build.0 = Release|x86
+		{078D1226-8073-4C14-B380-FE5275E12109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{078D1226-8073-4C14-B380-FE5275E12109}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
