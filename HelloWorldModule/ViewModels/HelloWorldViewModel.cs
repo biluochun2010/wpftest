@@ -5,6 +5,7 @@ using System.Text;
 using System.ComponentModel.Composition;
 using Microsoft.Practices.Prism.ViewModel;
 using Microsoft.Practices.Prism.Events;
+using Commons;
 
 namespace HelloWorldModule.ViewModels
 {

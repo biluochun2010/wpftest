@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HelloWorldModule
+namespace Commons
 {
     public class Resource
     {

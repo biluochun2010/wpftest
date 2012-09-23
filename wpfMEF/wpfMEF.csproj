@@ -115,6 +115,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Commons\Commons.csproj">
+      <Project>{4CE3BB75-F110-4F16-B3D5-964F252A64F9}</Project>
+      <Name>Commons</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HelloWorldModule\HelloWorldModule.csproj">
       <Project>{078D1226-8073-4C14-B380-FE5275E12109}</Project>
       <Name>HelloWorldModule</Name>
