@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HelloWorldModule
+namespace HelloWorldModule.Views
 {
     /// <summary>
     /// Interaction logic for HelloWorldView.xaml

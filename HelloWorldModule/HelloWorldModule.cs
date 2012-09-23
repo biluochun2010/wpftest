@@ -18,7 +18,7 @@ namespace HelloWorldModule
 
         public void Initialize()
         {
-            regionManager.RegisterViewWithRegion("MainRegion", typeof(HelloWorldView));
+            regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.HelloWorldView));
         }
     }
 }
