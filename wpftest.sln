@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpftest", "wpftest\wpftest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldModule", "HelloWorldModule\HelloWorldModule.csproj", "{078D1226-8073-4C14-B380-FE5275E12109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfMEF", "wpfMEF\wpfMEF.csproj", "{5BB0CC42-B774-487E-8128-E4518AB38333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{078D1226-8073-4C14-B380-FE5275E12109}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{078D1226-8073-4C14-B380-FE5275E12109}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{078D1226-8073-4C14-B380-FE5275E12109}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Debug|x86.ActiveCfg = Debug|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Debug|x86.Build.0 = Debug|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Release|Any CPU.ActiveCfg = Release|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Release|x86.ActiveCfg = Release|x86
+		{5BB0CC42-B774-487E-8128-E4518AB38333}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
