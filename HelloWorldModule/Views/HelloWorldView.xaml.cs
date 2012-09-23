@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.ComponentModel.Composition;
+using HelloWorldModule.ViewModels;
 
 namespace HelloWorldModule.Views
 {
@@ -24,6 +25,12 @@ namespace HelloWorldModule.Views
         public HelloWorldView()
         {
             InitializeComponent();
+        }
+
+        [Import]
+        HelloWorldViewModel ViewModel
+        {
+            set { this.DataContext = value; }
         }
     }
 }
