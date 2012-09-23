@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.ComponentModel.Composition;
+using wpftest.ViewModels;
 
 namespace wpftest.Views
 {
@@ -24,6 +25,12 @@ namespace wpftest.Views
         public Shell()
         {
             InitializeComponent();
+        }
+
+        [Import]
+        private ShellViewModel ViewModel
+        {
+            set { this.DataContext = value; }
         }
     }
 }

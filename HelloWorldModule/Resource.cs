@@ -10,6 +10,5 @@ namespace HelloWorldModule
         public string Title { get; set; }
         public string Urn { get; set; }
 
-
     }
 }
