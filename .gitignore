@@ -2,6 +2,7 @@
 *.pdb
 *.exe
 *.cache
+*.suo
 bin
 obj
 packages
