@@ -21,9 +21,14 @@ namespace wpftest
         {
             base.InitializeShell();
 
-            App.Current.MainWindow = (Window)this.Shell;
-            App.Current.MainWindow.Show();
-        }
+#if SILVERLIGHT
+            Application.Current.RootVisual = (Shell)this.Shell;            
+#else
+            Application.Current.MainWindow = (Shell)this.Shell;
+            Application.Current.MainWindow.Show();
+#endif
+
+         }
 
         protected override void ConfigureAggregateCatalog()
         {
