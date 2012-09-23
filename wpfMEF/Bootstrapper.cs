@@ -14,9 +14,9 @@ namespace wpftest
     {
         protected override DependencyObject CreateShell()
         {
-            return new Shell();
+            return this.Container.GetExportedValue<Shell>();
         }
-
+ 
         protected override void InitializeShell()
         {
             base.InitializeShell();
@@ -34,6 +34,9 @@ namespace wpftest
         {
             base.ConfigureAggregateCatalog();
 
+            //Registers the Shell 
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(Bootstrapper).Assembly));
+           
             this.AggregateCatalog.Catalogs.Add(
                 new AssemblyCatalog(typeof(HelloWorldModule.HelloWorldModule).Assembly));
          

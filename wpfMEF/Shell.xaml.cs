@@ -11,12 +11,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.ComponentModel.Composition;
 
 namespace wpftest
 {
     /// <summary>
     /// Interaction logic for Shell.xaml
     /// </summary>
+    [Export]
     public partial class Shell : Window
     {
         public Shell()
