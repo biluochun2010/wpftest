@@ -13,7 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.ComponentModel.Composition;
 
-namespace wpftest
+namespace wpftest.Views
 {
     /// <summary>
     /// Interaction logic for Shell.xaml

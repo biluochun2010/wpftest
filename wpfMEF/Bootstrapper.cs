@@ -14,7 +14,7 @@ namespace wpftest
     {
         protected override DependencyObject CreateShell()
         {
-            return this.Container.GetExportedValue<Shell>();
+            return this.Container.GetExportedValue<Views.Shell>();
         }
  
         protected override void InitializeShell()
@@ -22,9 +22,9 @@ namespace wpftest
             base.InitializeShell();
 
 #if SILVERLIGHT
-            Application.Current.RootVisual = (Shell)this.Shell;            
+            Application.Current.RootVisual = (Views.Shell)this.Shell;            
 #else
-            Application.Current.MainWindow = (Shell)this.Shell;
+            Application.Current.MainWindow = (Views.Shell)this.Shell;
             Application.Current.MainWindow.Show();
 #endif
 
