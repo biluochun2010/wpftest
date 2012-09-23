@@ -10,17 +10,16 @@ namespace HelloWorldModule.ViewModels
     [Export(typeof(HelloWorldViewModel))]
     class HelloWorldViewModel : NotificationObject
     {
-        private List<String> resources = new List<String>();
+        private List<Resource> resources = new List<Resource>();
 
         [ImportingConstructor]
         public HelloWorldViewModel()
         {
-            resources.Add("One");
-            resources.Add("Two");
-            resources.Add("Three");
+            resources.Add(new Resource { Title = "title1", Urn = "urn:urn1" });
+            resources.Add(new Resource { Title = "title2", Urn = "urn:urn2" });
         }
 
-        public List<String> ResourceList
+        public List<Resource> ResourceList
         {
             get {
                 return resources;
