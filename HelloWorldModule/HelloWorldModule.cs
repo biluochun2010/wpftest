@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.Regions;
+using System.ComponentModel.Composition;
+using Microsoft.Practices.Prism.MefExtensions.Modularity;
 
 namespace HelloWorldModule 
 {
+    [ModuleExport(typeof(HelloWorldModule))]
     public class HelloWorldModule : IModule
     {
+        [ImportingConstructor]
         public HelloWorldModule(IRegionManager regionManager)
         {
             this.regionManager = regionManager;
