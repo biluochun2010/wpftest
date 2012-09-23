@@ -5,6 +5,8 @@ using System.Text;
 using System.Windows;
 using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.MefExtensions;
+using System.ComponentModel.Composition.Hosting;
+using HelloWorldModule;
 
 namespace wpftest
 {
@@ -26,6 +28,9 @@ namespace wpftest
         protected override void ConfigureAggregateCatalog()
         {
             base.ConfigureAggregateCatalog();
+
+            this.AggregateCatalog.Catalogs.Add(
+                new AssemblyCatalog(typeof(HelloWorldModule.HelloWorldModule).Assembly));
          
         }
     }
