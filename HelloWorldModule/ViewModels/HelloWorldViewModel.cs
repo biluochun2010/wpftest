@@ -11,6 +11,7 @@ namespace HelloWorldModule.ViewModels
     class HelloWorldViewModel : NotificationObject
     {
         private List<Resource> resources = new List<Resource>();
+        private Resource currentResource;
 
         [ImportingConstructor]
         public HelloWorldViewModel()
@@ -23,6 +24,20 @@ namespace HelloWorldModule.ViewModels
         {
             get {
                 return resources;
+            }
+        }
+
+        public Resource CurrentResource
+        {
+            get { return currentResource; }
+            set
+            {
+                if (currentResource != value)
+                {
+                    currentResource = value;
+                    RaisePropertyChanged(() => CurrentResource);
+                   
+                }
             }
         }
     }
