@@ -9,7 +9,7 @@ using Microsoft.Practices.Prism.Events;
 namespace HelloWorldModule.ViewModels
 {
     [Export(typeof(HelloWorldViewModel))]
-    class HelloWorldViewModel : NotificationObject
+    public class HelloWorldViewModel : NotificationObject
     {
         private List<Resource> resources = new List<Resource>();
         private Resource currentResource;

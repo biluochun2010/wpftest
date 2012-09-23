@@ -5,10 +5,9 @@ using System.Text;
 
 namespace HelloWorldModule
 {
-    class Resource
+    public class Resource
     {
         public string Title { get; set; }
         public string Urn { get; set; }
-
     }
 }
