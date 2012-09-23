@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelloWorldModule.cs" />
+    <Compile Include="ViewModels\HelloWorldViewModel.cs" />
     <Compile Include="Views\HelloWorldView.xaml.cs">
       <DependentUpon>HelloWorldView.xaml</DependentUpon>
     </Compile>
@@ -78,6 +79,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

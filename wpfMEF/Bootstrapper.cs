@@ -39,7 +39,8 @@ namespace wpftest
            
             this.AggregateCatalog.Catalogs.Add(
                 new AssemblyCatalog(typeof(HelloWorldModule.HelloWorldModule).Assembly));
-         
+
+            
         }
     }
 }
