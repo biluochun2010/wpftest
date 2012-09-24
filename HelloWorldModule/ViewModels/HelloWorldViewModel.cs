@@ -40,7 +40,7 @@ namespace HelloWorldModule.ViewModels
                 {
                     currentResource = value;
                     RaisePropertyChanged(() => CurrentResource);
-                   
+                    eventAggregator.GetEvent<TitleChangedEvent>().Publish(currentResource.Title);                   
                 }
             }
         }

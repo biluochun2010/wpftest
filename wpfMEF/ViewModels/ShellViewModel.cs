@@ -5,6 +5,7 @@ using System.Text;
 using System.ComponentModel.Composition;
 using Microsoft.Practices.Prism.ViewModel;
 using Microsoft.Practices.Prism.Events;
+using Commons;
 
 namespace wpftest.ViewModels
 {
@@ -21,7 +22,7 @@ namespace wpftest.ViewModels
         {
             this.eventAggregator = eventAggregator;
             title = "Hello Shell Event";
-            //eventAggregator.GetEvent<TitleChangedEvent>().Subscribe(ChangeTitle);
+            eventAggregator.GetEvent<TitleChangedEvent>().Subscribe(ChangeTitle);
         }
    
         public string Title
