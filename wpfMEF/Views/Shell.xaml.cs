@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.ComponentModel.Composition;
 using wpftest.ViewModels;
+using MahApps.Metro.Controls;
 
 namespace wpftest.Views
 {
@@ -20,7 +21,7 @@ namespace wpftest.Views
     /// Interaction logic for Shell.xaml
     /// </summary>
     [Export]
-    public partial class Shell : Window
+    public partial class Shell : MetroWindow
     {
         public Shell()
         {
